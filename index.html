@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="description" content="Creative One Page Parallax Template">
+	<meta name="keywords" content="Creative, Onepage, Parallax, HTML5, Bootstrap, Popular, custom, personal, portfolio" /> 
+	<meta name="author" content=""> 
+	<title>Eoin Murphy - Online Portfolio - Student - I.T. Tallaght</title> 
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/prettyPhoto.css" rel="stylesheet"> 
+	<link href="css/font-awesome.min.css" rel="stylesheet"> 
+	<link href="css/animate.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet"> 
+	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> 
+	<script src="js/respond.min.js"></script> <![endif]--> 
+	<link rel="shortcut icon" href="images/ico/favicon.ico"> 
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/e-logo2.png"> 
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/e-logo2.png"> 
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/e-logo2.png"> 
+	<link rel="apple-touch-icon-precomposed" href="images/e-logo2.png">
+</head><!--/head-->
+<body>
+	<div class="preloader">
+		<div class="preloder-wrap">
+			<div class="preloder-inner"> 
+				<div class="ball"></div> 
+				<div class="ball"></div> 
+				<div class="ball"></div> 
+				<div class="ball"></div> 
+				<div class="ball"></div> 
+				<div class="ball"></div> 
+				<div class="ball"></div>
+			</div>
+		</div>
+	</div><!--/.preloader-->
+	<header id="navigation"> 
+		<div class="navbar navbar-inverse navbar-fixed-top" role="banner"> 
+			<div class="container"> 
+				<div class="navbar-header"> 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+					</button> 
+					<a class="navbar-brand" href="index.html"><h1><img src="images/logo.png" alt="logo"></h1></a> 
+				</div> 
+				<div class="collapse navbar-collapse"> 
+					<ul class="nav navbar-nav navbar-right"> 
+						<li class="scroll active"><a href="#navigation">Home</a></li> 
+						<li class="scroll"><a href="#about-us">About Me</a></li> 
+						<li class="scroll"><a href="#services">Employment</a></li> 
+						<li class="scroll"><a href="#our-team">Education</a></li> 
+						<li class="scroll"><a href="#portfolio">Projects</a></li> 
+						<li class="scroll"><a href="#clients">Hobbies</a></li> 
+						<li class="scroll"><a href="#contact">Contact</a></li>
+						<li></li>
+						<li>
+							<script>//GOOGLE SEARCH
+//Enter domain of site to search
+var domainroot=""
+function Gsitesearch(curobj){
+curobj.q.value=""+domainroot+" "+curobj.qfront.value
+}
+</script>
+<form class="search" action="http://www.google.com/search" target="_blank" method="get" onSubmit="Gsitesearch(this)">
+<input name="q" type="hidden" />
+<input name="qfront" type="search" required class="searchField" placeholder="Search Google..." maxlength="50"/>
+<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button></form>
+</form>
+</li>
+<li><head>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+</body></li>
+
+
+					</ul> 
+				</div> 
+			</div> 
+		</div><!--/navbar--> 
+	</header> <!--/#navigation--> 
+
+	<section id="home">
+		<div class="home-pattern"></div>
+		<div id="main-carousel" class="carousel slide" data-ride="carousel"> 
+			<ol class="carousel-indicators">
+				<li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#main-carousel" data-slide-to="1"></li>
+				<li data-target="#main-carousel" data-slide-to="2"></li>
+			</ol><!--/.carousel-indicators--> 
+			<div class="carousel-inner">
+				<div class="item active" style="background-image: url(images/header_bg.jpg)"> 
+					<div class="carousel-caption"> 
+						<div> 
+							<header class="clearfix">
+	  		 		<h1><img class="img animated bounceInDown" src="images/e-logo2.png"></h1>
+	  		 		<p><img class="img img-circle animated bounceInUp" src="images/e-logo3.png"></p>
+	  		</header>
+						</div> 
+					</div> 
+				</div>
+				<div class="item" style="background-image: url(images/header_bg2.jpg)"> 
+					<div class="carousel-caption"> <div> 
+						<header class="clearfix">
+	  		 		<h1><img class="img animated bounceInDown" src="images/e-logo2.png"></h1>
+	  		 		<p><img class="img img-circle animated bounceInUp" src="images/e-logo3.png"></p>
+	  		</header>
+					</div> 
+				</div> 
+			</div> 
+			<div class="item" style="background-image: url(images/header_bg3.jpg)"> 
+				<div class="carousel-caption"> 
+					<div> 
+	  		 		<h1><img class="img animated bounceInDown" src="images/e-logo2.png"></h1>
+	  		 		<p><img class="img img-circle animated bounceInUp" src="images/e-logo3.png"></p>
+					</div> 
+				</div> 
+			</div>
+		</div><!--/.carousel-inner-->
+
+		<a class="carousel-left member-carousel-control hidden-xs" href="#main-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+		<a class="carousel-right member-carousel-control hidden-xs" href="#main-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+	</div> 
+
+</section><!--/#home-->
+
+<section id="about-us">
+	<div class="container">
+		<div class="text-center">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h2 class="title-one">Who Am I?</h2>
+				<p>My name is Eoin Murphy, 21 years of age and living in Dublin, Ireland. I am currently undergoing the 4th Year of my BSc(Hons) in I.T Management, studying at the Institute of Technology, Tallaght.   </p>
+			</div>
+		</div>
+		<div class="about-us">
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>Social Media</h3>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-chain-broken"></i> LinkedIn</a></li>
+						<li><a href="#mission" data-toggle="tab"><i class="fa fa-th-large"></i> Facebook</a></li>
+						<li><a href="#community" data-toggle="tab"><i class="fa fa-users"></i> Twitter</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane fade in active" id="about">
+							<div class="media">
+								<img class="pull-left media-object" src="images/linked1.png" alt="about us"> 
+								<div class="media-body">
+									<p>Please feel free to take a look at my LinkedIn profile, I am always looking to make new connections. </p>
+								</div>
+							</div>
+						
+						<hr>
+						<h3>View my LinkedIn Page.</h3>
+						<!--  embed coe, just change id Name for your own profile -->
+						<script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+						<script type="IN/MemberProfile" data-id="" data-format="inline"></script>
+							<a href="https://ie.linkedin.com/in/eoin-murphy-4066698b" target="_blank">
+								<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png"
+									width="160" height="33" border="0" alt="View Eoin Murphy's profile on LinkedIn">
+							</a>
+							<hr>
+							</div>
+							
+						<div class="tab-pane fade" id="mission">
+							<div class="media">
+								<img class="pull-left media-object" src="images/facebook1.png" alt="mission" > 
+								<div class="media-body">
+						<hr>
+						<!--  embed coe, just change id Name for your own profile -->
+							<h3>View my Facebook Profile.</h3>
+								<!-- Facebook Badge START --><a href="https://www.facebook.com/" title="Eoin Murphy" target="_TOP"><img class="img" src="https://badge.facebook.com/badge/1432029527.4013.1939934982.png" style="border: 0px;" alt="" /></a><br /><a href="https://www.facebook.com/badges/" title="Make your own badge!" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" target="_TOP">
+							</a>
+							<hr>
+								</div>
+							</div>
+							
+						</div>
+						
+						<div class="tab-pane fade" id="community">
+							<div class="media">
+								<img class="pull-left media-object" src="images/twitter1.jpg" alt="Community"> 
+								<div class="media-body">
+								<h3>View my Twitter Feed.</h3>
+								           <a href="https://twitter.com/TwitterDev" target="_blank" class="twitter-follow-button" data-show-count="false">Follow @EoinMurphy</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>                   
+          
+          
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<h3>My Skills</h3>
+					<div class="skill-bar">
+						<div class="skillbar clearfix " data-percent="95%">
+							<div class="skillbar-title">
+								<span>Interpersonal</span>
+							</div>
+							<div class="skillbar-bar"></div>
+						</div> <!-- End Skill Bar -->
+						<div class="skillbar clearfix" data-percent="90%">
+							<div class="skillbar-title"><span>Java</span></div>
+							<div class="skillbar-bar"></div>
+						</div> <!-- End Skill Bar -->
+						<div class="skillbar clearfix " data-percent="85%">
+							<div class="skillbar-title"><span>Web Design</span></div>
+							<div class="skillbar-bar"></div>
+							
+						</div> <!-- End Skill Bar -->
+						<div class="skillbar clearfix " data-percent="80%">
+							<div class="skillbar-title"><span>Networking</span></div>
+							<div class="skillbar-bar"></div>
+						</div> <!-- End Skill Bar -->
+						<div class="skillbar clearfix " data-percent="80%">
+							<div class="skillbar-title"><span>E-Learning</span></div>
+							<div class="skillbar-bar"></div>
+						</div> <!-- End Skill Bar --></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#about-us-->
+				 
+
+	<section id="services" class="parallax-section">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2 class="title-one">Employment</h2>
+					<p>I have had the pleasure to work in numerous environents over the years. Below you will find information about my employment within different Organisations.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="our-service">
+						<div class="services row">
+							<div class="col-sm-4">
+								<div class="single-service">
+									<img class="img img" src="images/sage1.png">
+									<h2>Sage</h2>
+									<p>Employment Lenght: January 2016 - August 2016</p>
+									<p>Position: Sage One - Customer Services - Payroll Support Specialist</p>
+									<p>As a member of the Sage Customer Services team, I provided solutions to numerous issues in which an international range of customers encountered. </p>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="single-service">
+									<img class="img img" src="images/km1.png">
+									<h2>K&M Evans</h2>
+									<p>Employment Lenght: July 2012 - Present</p>
+									<p>Position: Customer Services - Online Sales Management - Stockroom Management</p>
+									<p>As a member of the K&M Evans, It is my responsiblity to monitor the flow of incoming online orders through the store website, assuring the assembly and packaging of the order and that shipment occurs within a suitable time period. I am also responsible for assuring the stockroom meets health and safety standards and that stock is accessible to employees. </p>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="single-service">
+									<img class="img img" src="images/glan1.png">
+									<h2>Glanbia</h2>
+									<p>Employment Lenght: July 2010 - December 2015</p>
+									<p>Position: Customer Services - Accounts - Debt Collection</p>
+									<p>Responsible for issueing invoices to customers and acquiring the specified amount due. Responsible for managing orders and attending to customer queries and complaints. </p>
+								</div>
+							</div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--/#service-->
+
+		<section id="our-team">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm-8 col-sm-offset-2">
+						<h2 class="title-one">Education</h2>
+						<p>Institute of Technology Tallaght</p>
+						<p>Bachelor of Science (Honours) in Computing</p>
+					</div>
+				</div>
+				<div id="team-carousel" class="carousel slide" data-interval="false">
+					<div class="carousel-inner team-members">
+						<div class="row item active">
+							<div class="col-sm-6 col-md-3">
+								<div class="single-member">
+									<img src="images/our-team/y4.png" alt="team member" />
+									<h4>GPA: *.*</h4>
+									<p>Status: In Progress</p>
+									<p><a data-toggle="modal" href="#myModaly4" class="btn btn-primary btn-lg">View</a></p>
+								</div>
+							</div>
+							
+							<div class="modal fade" id="myModaly4" tabindex="-1" role="dialog" aria-labelledby="myModalLabely4" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Year 4</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p><center><img class="img-responsive" src="images/our-team/y4.png" alt=""></center></p>
+						          <table style="width:100%">
+								  <tr>
+									<th>Module</th>
+									<th>Grade</th> 
+								  </tr>
+								  <tr>
+									<td>Computer Architecture</td>
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>SMAII</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Interactive Media Design</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>EAA</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Project</td> 
+									<td>*</td>	  
+								  </tr>
+								</table>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+						  
+							<div class="col-sm-6 col-md-3">
+								<div class="single-member">
+									<img src="images/our-team/y3.png" alt="team member" />
+									<h4>GPA: *.*</h4>
+									<p>Status: Complete</p>
+									<p><a data-toggle="modal" href="#myModaly3" class="btn btn-primary btn-lg">View</a></p>
+								</div>
+							</div>
+							
+							<div class="modal fade" id="myModaly3" tabindex="-1" role="dialog" aria-labelledby="myModalLabely3" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Year 3e</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p><center><img class="img-responsive" src="images/our-team/y3.png" alt=""></center></p>
+						          <table style="width:100%">
+								  <tr>
+									<th>Module</th>
+									<th>Grade</th> 
+								  </tr>
+								  <tr>
+									<td>Networking 3</td>
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Advanced Databases</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Web Design & Development 2</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Operating Systems</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Innovation & Entrepreneurshp</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Cloud servs and distrib comp</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Experiential Learning</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Project</td> 
+									<td>*</td>
+								  </tr>
+								</table>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+						  
+							<div class="col-sm-6 col-md-3">
+								<div class="single-member">
+									<img src="images/our-team/y2.png" alt="team member" />
+									<h4>GPA: *.*</h4>
+									<p>Status: Complete</p>
+									<p><a data-toggle="modal" href="#myModaly2" class="btn btn-primary btn-lg">View</a></p>
+								</div>
+							</div>
+							
+							<div class="modal fade" id="myModaly2" tabindex="-1" role="dialog" aria-labelledby="myModalLabely2" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Year 2</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p><center><img class="img-responsive" src="images/our-team/y2.png" alt=""></center></p>
+						          <table style="width:100%">
+								  <tr>
+									<th>Module</th>
+									<th>Grade</th> 
+								  </tr>
+								  <tr>
+									<td>Software Developemnt 3</td>
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Software Quality Ass & Test</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Networking 1</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Database Design & Programmin</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Discrete Mathematics 2</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Web Design and Development</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Software Development 4</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Networking 2</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Management Science</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Object Oriented Analy & Desi</td>
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Information Security</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Project</td> 
+									<td>*</td>
+								  </tr>
+								</table>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+						  
+							<div class="col-sm-6 col-md-3">
+								<div class="single-member">
+									<img src="images/our-team/y1.png" alt="team member" />
+									<h4>GPA: *.*</h4>
+									<p>Status: Complete</p>
+									<p><a data-toggle="modal" href="#myModaly1" class="btn btn-primary btn-lg">View</a></p>
+								</div>
+							</div>
+							
+							<div class="modal fade" id="myModaly1" tabindex="-1" role="dialog" aria-labelledby="myModalLabely1" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Year 1</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p><center><img class="img-responsive" src="images/our-team/y1.png" alt=""></center></p>
+						          <table style="width:100%">
+								  <tr>
+									<th>Module</th>
+									<th>Grade</th> 
+								  </tr>
+								  <tr>
+									<td>Software Developemnt 1</td>
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Computer Architecture</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Fundament of Interface & Web</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Business & Information Systems</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Learning to Learn at 3rd Level</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Software Development 2</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Object Oriented System Analysis</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Social Media Communications</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Statistics</td>
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Database Fundamentals</td> 
+									<td>*</td>
+								  </tr>
+								  <tr>
+									<td>Operating System Fundamentals</td> 
+									<td>*</td>
+								  </tr>
+								</table>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+						  
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--/#Our-Team-->
+
+		<section id="portfolio">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm-8 col-sm-offset-2">
+						<h2 class="title-one">Projects</h2>
+						<p>Below you will find numerous projects I have been involved in. Selecting a category will filter the available choices..</p>
+					</div>
+				</div>
+				<ul class="portfolio-filter text-center">
+					<li><a class="btn btn-default active" href="#" data-filter="*">All</a></li>
+					<li><a class="btn btn-default" href="#" data-filter=".Computing">Computing</a></li>
+					<li><a class="btn btn-default" href="#" data-filter=".Art">Art</a></li>
+					<li><a class="btn btn-default" href="#" data-filter=".Voluntary">Voluntary</a></li>
+				</ul><!--/#portfolio-filter-->
+				<div class="portfolio-items">
+					<div class="col-sm-3 col-xs-12 portfolio-item Computing">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img src="images/portfolio/1.jpg" alt=""></div> 
+								<div class="mask text-center">
+									<h3>Theatre Booking System</h3>
+									<h4>2nd Year Programming Project. Java.</h4>
+									<a href="images/portfolio/1.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 portfolio-item Computing">
+							<div class="view efffect" >
+								<div class="portfolio-image">
+									<img src="images/portfolio/2.jpg" alt="">
+								</div> 
+								<div class="mask text-center">
+									<h3>Knowledge Sharing</h3>
+									<h4>Investigation of Knowledge Sharing in the Workplace</h4>
+									<a href="images/portfolio/2.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 portfolio-item Computing">
+							<div class="view efffect">
+								<div class="portfolio-image">
+									<img src="images/portfolio/3.jpg" alt="">
+								</div> 
+								<div class="mask text-center">
+								<h3>Adaptive Learning System</h3>
+								<h4>Using Articulate Storyline and Moodle as LMS.</h4>
+								<a href="images/portfolio/3.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item Voluntary">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img src="images/portfolio/4.jpg" alt="">
+							</div> 
+							<div class="mask text-center">
+								<h3>Ronald McDonald House</h3>
+								<h4>Cooking Meals for residents.</h4>
+								<a href="images/portfolio/4.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item Voluntary">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img src="images/portfolio/5.jpg" alt="">
+							</div> <div class="mask text-center">
+							<h3>Hell & Back</h3>
+							<h4>Participated in 2015</h4>
+							<a href="images/portfolio/5.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-12 portfolio-item Art">
+					<div class="view efffect">
+						<div class="portfolio-image">
+							<img src="images/portfolio/6.jpg" alt="">
+						</div> 
+						<div class="mask text-center">
+							<h3>Life Drawing Project</h3>
+							<h4>Project focusing on the facial features of beings.</h4>
+							<a href="images/portfolio/6.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-12 portfolio-item Art">
+					<div class="view efffect">
+						<div class="portfolio-image">
+							<img src="images/portfolio/7.jpg" alt="">
+						</div> 
+						<div class="mask text-center">
+							<h3>Art Portfolio</h3>
+							<h4>Have a completed Art Portfolio w</h4>
+							<a href="images/portfolio/7.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-12 portfolio-item Art">
+					<div class="view efffect">
+						<div class="portfolio-image">
+							<img src="images/portfolio/8.jpg" alt=""></div> 
+							<div class="mask text-center">
+								<h3>Costume Design</h3>
+								<h4>Completed numerous courses on design and creation.</h4>
+								<a href="images/portfolio/8.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 portfolio-item Art">
+						<div class="view efffect">
+							<div class="portfolio-image">
+								<img src="images/portfolio/9.jpg" alt="">
+							</div> 
+							<div class="mask text-center">
+								<h3>Theatrical Makeup</h3>
+								<h4>Studied Special FX </h4>
+								<a href="images/portfolio/9.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					</section> <!--/#portfolio-->
+
+					<section id="clients" class="parallax-section">
+						<div class="container">
+							<div class="clients-wrapper">
+								<div class="row text-center">
+									<div class="col-sm-8 col-sm-offset-2">
+										<h2 class="title-one">Hobbies & Interests</h2>
+										
+				<p><div class="col-md-4 ">
+			    	<div class="grid mask">
+						<figure>
+						
+							<img class="img-responsive" src="images/portfolio/folio01.jpg" alt="">
+							<figcaption>
+							<h1></h1>
+								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Art, Crafts & Design</a>
+							<h5></h5>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+				
+						 <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
+						      a modal for each of your projects. -->
+						      
+						  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Art</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p><img class="img-responsive" src="images/portfolio/folio01.jpg" alt=""></p>
+						          <p>I have a huge interest in concept design and the creation & development of different projects. I have been involved in the running of numerous Dublin based exhibitions and have presented my own work as part of some.</p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+				
+				
+				<!-- PORTFOLIO IMAGE 2 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="images/portfolio/folio02.jpg" alt="">
+							<figcaption>
+							<h1></h1>
+								<a data-toggle="modal" href="#myModal2" class="btn btn-primary btn-lg">Gaming</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+
+				<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Gaming</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p><img class="img-responsive" src="images/portfolio/folio02.jpg" alt=""></p>
+						          <p>From a young age I have had an interest in gaming environments, making it a priority to immerse myself in development kits for different computer games and creating my own third party content.</p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+				
+				<!-- PORTFOLIO IMAGE 3 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="images/portfolio/folio03.jpg" alt="">
+							<figcaption>
+							<h1></h1>
+								<a data-toggle="modal" href="#myModal3" class="btn btn-primary btn-lg">Fitness & Exercise</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+
+				<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Exercise</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p><img class="img-responsive" src="images/portfolio/folio02.jpg" alt=""></p>
+						          <p>I have always been physically involved with numerous aspects of fitness. I currently practice aerial acrobatics and body strenghtening multiples times a week.</p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal --></p>
+						  
+									</div>
+								</div>
+										<p></p>
+										<p></p>
+										<p></p>
+										<p></p>
+										<p></p>
+
+
+						<section id="contact">
+							<div class="container">
+								<div class="row text-center clearfix">
+									<div class="col-sm-8 col-sm-offset-2">
+										<div class="contact-heading">
+											<h2 class="title-one">Contact With Us</h2>
+											<p>Please complete the webform below and I will respond to you at the earliest convenience. Thank you.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<center><div class="container">
+								<div class="contact-details">
+									<div class="pattern"></div>
+									<div class="row text-center clearfix">
+										
+										<div class="col-sm-6"> 
+											<div id="contact-form-section">
+												<div class="status alert alert-success" style="display: none"></div>
+												<form id="contact-form" class="contact" name="contact-form" method="post" action="send-mail.php">
+													<div class="form-group">
+														<input type="text" name="name" class="form-control name-field" required="required" placeholder="Your Name"></div>
+														<div class="form-group">
+															<input type="email" name="email" class="form-control mail-field" required="required" placeholder="Your Email">
+														</div> 
+														<div class="form-group">
+															<textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+														</div> 
+														<div class="form-group">
+															<button type="submit" class="btn btn-primary">Send</button>
+														</div>
+													</form> 
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> </center>
+							</section> <!--/#contact--> 
+
+	<footer id="footer"> 
+		<div class="container"> 
+		<div class="text-center"> 
+			<a href="readme.html"><i class="fa fa-question"></i></a> 
+		</div> 
+	</div> 
+	</footer> <!--/#footer--> 
+
+	<script type="text/javascript" src="js/jquery.js"></script> 
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script> 
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+	<script type="text/javascript" src="js/jquery.parallax.js"></script> 
+	<script type="text/javascript" src="js/main.js"></script> 
+</body>
+</html>
